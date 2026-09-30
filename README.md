@@ -1,4 +1,11 @@
-# Cellmates
+# Cellmates (total copy number)
+
+> [!IMPORTANT]
+> **This is the earlier, total-copy-number version of Cellmates, kept for reference.**
+> The current method is **haplotype-specific** and lives at
+> **[github.com/Lagergren-Lab/cellmates](https://github.com/Lagergren-Lab/cellmates)** —
+> use that one unless you specifically need the total-CN implementation described here.
+
 
 > A maximum likelihood method for single-cell phylogeny reconstruction with proper evolutionary distances from copy numbers
 
@@ -44,8 +51,8 @@ The easiest way to install Cellmates is using conda to manage dependencies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Lagergren-Lab/cellmates.git
-cd cellmates
+git clone https://github.com/Lagergren-Lab/cellmates-tot.git
+cd cellmates-tot
 
 # Create conda environment from environment.yml
 conda env create -f environment.yml
@@ -61,8 +68,8 @@ pip install -e .
 
 ```bash
 # Clone the repository
-git clone https://github.com/Lagergren-Lab/cellmates.git
-cd cellmates
+git clone https://github.com/Lagergren-Lab/cellmates-tot.git
+cd cellmates-tot
 
 # Create and activate virtual environment
 python -m venv venv
@@ -224,4 +231,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - **Harald Melin** - haralme@kth.se
 - **Marzie Abdolhamdi** - marziea@kth.se
 
-Project Link: [https://github.com/Lagergren-Lab/cellmates](https://github.com/Lagergren-Lab/cellmates)
+Project Link: [https://github.com/Lagergren-Lab/cellmates-tot](https://github.com/Lagergren-Lab/cellmates-tot)
